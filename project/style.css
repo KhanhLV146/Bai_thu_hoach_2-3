@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eae3e3;
+}
+#header{
+    position: fixed;
+    height: 46px;
+    background-color: rgb(152, 32, 32);
+    top: 0;
+    left: 0;
+    right: 0;   
+}
+#nav > li > a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white; 
+}
+#nav li{
+    display: inline-block;
+    position: relative; 
+}
+#nav{
+    display: inline-block;
+}
+#nav > li:hover > a{
+    color: black;
+    background-color: #ccc;
+}
+#gioi-thieu {
+  background-image: url(./assets/image/image1.jpg);
+  background-size: cover ;
+  width: 100%;
+  height: 800px;
+}
+#gioi-thieu  {
+    margin-top: 46px;   
+    padding-top: 40%;
+
+}
+#gioi-thieu h2 {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 12px;
+    font-style: italic;
+}
+#gioi-thieu h3{
+    text-align: center;
+    padding-bottom: 12px;
+    font-weight: 150;
+}
+#gioi-thieu2 {
+    width: 800px;
+    height: 500px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gioi-thieu2 .gt2-heading{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    font-style: italic;
+
+}
+#gioi-thieu2 .gt2-content{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.6;
+}
+#tieu-su{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#tieu-su img{
+
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tieu-su-text h3{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+#su-nghiep img{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.su-nghiep-text h3{
+    width: 800px;
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.bang-thanh-tich{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ h2{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+#danh-hieu{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#danh-hieu img{
+    width: 540px;
+    height: 500px;
+    
+}
+#danh-hieu .danh-hieu-display{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.danh-hieu-text h3{
+    font-weight: lighter;
+    
+}
+.danh-hieu-text li{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.cs-text h3{
+    width: 800px;
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+/* styles.css */
+/* ... (các quy tắc CSS hiện tại) */
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff5722; /* Màu khi hover */
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(181, 168, 168);
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.popup {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#letterForm {
+    text-align: center;
+}
+
+
+#letterForm label,
+#letterForm input,
+#letterForm select,
+#letterForm textarea,
+#letterForm input[type="submit"] {
+    margin: 5px 0;
+}
+.popup h2{
+    text-align: center;
+    font-family: 'Roboto';
+    
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
